@@ -15,6 +15,8 @@
 		CF2B44C720E4BA4C006104AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B44C620E4BA4C006104AF /* main.m */; };
 		CF2B44D120E4BA4D006104AF /* UpLoadVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B44D020E4BA4D006104AF /* UpLoadVideoTests.m */; };
 		CF2B44DC20E4BA4D006104AF /* UpLoadVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B44DB20E4BA4D006104AF /* UpLoadVideoUITests.m */; };
+		CF2B44EB20E4C63F006104AF /* VideoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B44EA20E4C63F006104AF /* VideoPickerController.m */; };
+		CF2B44EE20E4C6CA006104AF /* VideoPicker.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF2B44ED20E4C6CA006104AF /* VideoPicker.Bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		CF2B44D720E4BA4D006104AF /* UpLoadVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpLoadVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2B44DB20E4BA4D006104AF /* UpLoadVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpLoadVideoUITests.m; sourceTree = "<group>"; };
 		CF2B44DD20E4BA4D006104AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2B44E920E4C63F006104AF /* VideoPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPickerController.h; sourceTree = "<group>"; };
+		CF2B44EA20E4C63F006104AF /* VideoPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPickerController.m; sourceTree = "<group>"; };
+		CF2B44ED20E4C6CA006104AF /* VideoPicker.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VideoPicker.Bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		CF2B44B620E4BA47006104AF /* UpLoadVideo */ = {
 			isa = PBXGroup;
 			children = (
+				CF2B44EC20E4C647006104AF /* pickerController */,
 				CF2B44B720E4BA47006104AF /* AppDelegate.h */,
 				CF2B44B820E4BA47006104AF /* AppDelegate.m */,
 				CF2B44BA20E4BA47006104AF /* ViewController.h */,
@@ -130,6 +136,16 @@
 				CF2B44DD20E4BA4D006104AF /* Info.plist */,
 			);
 			path = UpLoadVideoUITests;
+			sourceTree = "<group>";
+		};
+		CF2B44EC20E4C647006104AF /* pickerController */ = {
+			isa = PBXGroup;
+			children = (
+				CF2B44ED20E4C6CA006104AF /* VideoPicker.Bundle */,
+				CF2B44E920E4C63F006104AF /* VideoPickerController.h */,
+				CF2B44EA20E4C63F006104AF /* VideoPickerController.m */,
+			);
+			path = pickerController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +254,7 @@
 				CF2B44C420E4BA4C006104AF /* LaunchScreen.storyboard in Resources */,
 				CF2B44C120E4BA4C006104AF /* Assets.xcassets in Resources */,
 				CF2B44BF20E4BA47006104AF /* Main.storyboard in Resources */,
+				CF2B44EE20E4C6CA006104AF /* VideoPicker.Bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +282,7 @@
 				CF2B44BC20E4BA47006104AF /* ViewController.m in Sources */,
 				CF2B44C720E4BA4C006104AF /* main.m in Sources */,
 				CF2B44B920E4BA47006104AF /* AppDelegate.m in Sources */,
+				CF2B44EB20E4C63F006104AF /* VideoPickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = UpLoadVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78S8WECG83;
 				INFOPLIST_FILE = UpLoadVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
