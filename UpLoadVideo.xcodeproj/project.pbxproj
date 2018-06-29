@@ -17,6 +17,14 @@
 		CF2B44DC20E4BA4D006104AF /* UpLoadVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B44DB20E4BA4D006104AF /* UpLoadVideoUITests.m */; };
 		CF2B44EB20E4C63F006104AF /* VideoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B44EA20E4C63F006104AF /* VideoPickerController.m */; };
 		CF2B44EE20E4C6CA006104AF /* VideoPicker.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF2B44ED20E4C6CA006104AF /* VideoPicker.Bundle */; };
+		CF2B44F120E5E004006104AF /* CompressionVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B44F020E5E004006104AF /* CompressionVideo.m */; };
+		CF2B44F520E5FC6E006104AF /* UpLoadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B44F420E5FC6E006104AF /* UpLoadImage.m */; };
+		CF2B450420E5FE36006104AF /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B44FB20E5FE35006104AF /* AFURLResponseSerialization.m */; };
+		CF2B450520E5FE36006104AF /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B44FC20E5FE35006104AF /* AFHTTPSessionManager.m */; };
+		CF2B450620E5FE36006104AF /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B44FE20E5FE35006104AF /* AFURLSessionManager.m */; };
+		CF2B450720E5FE36006104AF /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B44FF20E5FE35006104AF /* AFURLRequestSerialization.m */; };
+		CF2B450820E5FE36006104AF /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B450120E5FE35006104AF /* AFNetworkReachabilityManager.m */; };
+		CF2B450920E5FE36006104AF /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B450220E5FE35006104AF /* AFSecurityPolicy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +64,23 @@
 		CF2B44E920E4C63F006104AF /* VideoPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPickerController.h; sourceTree = "<group>"; };
 		CF2B44EA20E4C63F006104AF /* VideoPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPickerController.m; sourceTree = "<group>"; };
 		CF2B44ED20E4C6CA006104AF /* VideoPicker.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = VideoPicker.Bundle; sourceTree = "<group>"; };
+		CF2B44EF20E5E004006104AF /* CompressionVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompressionVideo.h; sourceTree = "<group>"; };
+		CF2B44F020E5E004006104AF /* CompressionVideo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompressionVideo.m; sourceTree = "<group>"; };
+		CF2B44F320E5FC6E006104AF /* UpLoadImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpLoadImage.h; sourceTree = "<group>"; };
+		CF2B44F420E5FC6E006104AF /* UpLoadImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpLoadImage.m; sourceTree = "<group>"; };
+		CF2B44F720E5FE35006104AF /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		CF2B44F820E5FE35006104AF /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		CF2B44F920E5FE35006104AF /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		CF2B44FA20E5FE35006104AF /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CF2B44FB20E5FE35006104AF /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		CF2B44FC20E5FE35006104AF /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		CF2B44FD20E5FE35006104AF /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		CF2B44FE20E5FE35006104AF /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		CF2B44FF20E5FE35006104AF /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		CF2B450020E5FE35006104AF /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		CF2B450120E5FE35006104AF /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		CF2B450220E5FE35006104AF /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		CF2B450320E5FE35006104AF /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +131,13 @@
 		CF2B44B620E4BA47006104AF /* UpLoadVideo */ = {
 			isa = PBXGroup;
 			children = (
+				CF2B44F620E5FE35006104AF /* AFNetworking */,
+				CF2B44F220E5E0A2006104AF /* CompressionVideoHeaper */,
 				CF2B44EC20E4C647006104AF /* pickerController */,
 				CF2B44B720E4BA47006104AF /* AppDelegate.h */,
 				CF2B44B820E4BA47006104AF /* AppDelegate.m */,
+				CF2B44F320E5FC6E006104AF /* UpLoadImage.h */,
+				CF2B44F420E5FC6E006104AF /* UpLoadImage.m */,
 				CF2B44BA20E4BA47006104AF /* ViewController.h */,
 				CF2B44BB20E4BA47006104AF /* ViewController.m */,
 				CF2B44BD20E4BA47006104AF /* Main.storyboard */,
@@ -146,6 +175,35 @@
 				CF2B44EA20E4C63F006104AF /* VideoPickerController.m */,
 			);
 			path = pickerController;
+			sourceTree = "<group>";
+		};
+		CF2B44F220E5E0A2006104AF /* CompressionVideoHeaper */ = {
+			isa = PBXGroup;
+			children = (
+				CF2B44EF20E5E004006104AF /* CompressionVideo.h */,
+				CF2B44F020E5E004006104AF /* CompressionVideo.m */,
+			);
+			path = CompressionVideoHeaper;
+			sourceTree = "<group>";
+		};
+		CF2B44F620E5FE35006104AF /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CF2B44F720E5FE35006104AF /* AFSecurityPolicy.h */,
+				CF2B44F820E5FE35006104AF /* AFNetworkReachabilityManager.h */,
+				CF2B44F920E5FE35006104AF /* AFURLSessionManager.h */,
+				CF2B44FA20E5FE35006104AF /* AFURLRequestSerialization.h */,
+				CF2B44FB20E5FE35006104AF /* AFURLResponseSerialization.m */,
+				CF2B44FC20E5FE35006104AF /* AFHTTPSessionManager.m */,
+				CF2B44FD20E5FE35006104AF /* AFURLResponseSerialization.h */,
+				CF2B44FE20E5FE35006104AF /* AFURLSessionManager.m */,
+				CF2B44FF20E5FE35006104AF /* AFURLRequestSerialization.m */,
+				CF2B450020E5FE35006104AF /* AFNetworking.h */,
+				CF2B450120E5FE35006104AF /* AFNetworkReachabilityManager.m */,
+				CF2B450220E5FE35006104AF /* AFSecurityPolicy.m */,
+				CF2B450320E5FE35006104AF /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +337,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2B450620E5FE36006104AF /* AFURLSessionManager.m in Sources */,
 				CF2B44BC20E4BA47006104AF /* ViewController.m in Sources */,
 				CF2B44C720E4BA4C006104AF /* main.m in Sources */,
 				CF2B44B920E4BA47006104AF /* AppDelegate.m in Sources */,
+				CF2B450920E5FE36006104AF /* AFSecurityPolicy.m in Sources */,
 				CF2B44EB20E4C63F006104AF /* VideoPickerController.m in Sources */,
+				CF2B44F520E5FC6E006104AF /* UpLoadImage.m in Sources */,
+				CF2B450420E5FE36006104AF /* AFURLResponseSerialization.m in Sources */,
+				CF2B450720E5FE36006104AF /* AFURLRequestSerialization.m in Sources */,
+				CF2B44F120E5E004006104AF /* CompressionVideo.m in Sources */,
+				CF2B450820E5FE36006104AF /* AFNetworkReachabilityManager.m in Sources */,
+				CF2B450520E5FE36006104AF /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
