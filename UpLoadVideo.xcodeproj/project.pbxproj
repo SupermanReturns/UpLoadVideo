@@ -25,6 +25,7 @@
 		CF2B450720E5FE36006104AF /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B44FF20E5FE35006104AF /* AFURLRequestSerialization.m */; };
 		CF2B450820E5FE36006104AF /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B450120E5FE35006104AF /* AFNetworkReachabilityManager.m */; };
 		CF2B450920E5FE36006104AF /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B450220E5FE35006104AF /* AFSecurityPolicy.m */; };
+		CF2B450C20E610A0006104AF /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2B450B20E610A0006104AF /* UIView+Addition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		CF2B450120E5FE35006104AF /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		CF2B450220E5FE35006104AF /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
 		CF2B450320E5FE35006104AF /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		CF2B450A20E6109F006104AF /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		CF2B450B20E610A0006104AF /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				CF2B44F420E5FC6E006104AF /* UpLoadImage.m */,
 				CF2B44BA20E4BA47006104AF /* ViewController.h */,
 				CF2B44BB20E4BA47006104AF /* ViewController.m */,
+				CF2B450A20E6109F006104AF /* UIView+Addition.h */,
+				CF2B450B20E610A0006104AF /* UIView+Addition.m */,
 				CF2B44BD20E4BA47006104AF /* Main.storyboard */,
 				CF2B44C020E4BA4C006104AF /* Assets.xcassets */,
 				CF2B44C220E4BA4C006104AF /* LaunchScreen.storyboard */,
@@ -340,6 +345,7 @@
 				CF2B450620E5FE36006104AF /* AFURLSessionManager.m in Sources */,
 				CF2B44BC20E4BA47006104AF /* ViewController.m in Sources */,
 				CF2B44C720E4BA4C006104AF /* main.m in Sources */,
+				CF2B450C20E610A0006104AF /* UIView+Addition.m in Sources */,
 				CF2B44B920E4BA47006104AF /* AppDelegate.m in Sources */,
 				CF2B450920E5FE36006104AF /* AFSecurityPolicy.m in Sources */,
 				CF2B44EB20E4C63F006104AF /* VideoPickerController.m in Sources */,
