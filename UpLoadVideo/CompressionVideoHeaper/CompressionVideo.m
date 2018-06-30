@@ -21,10 +21,6 @@
     
     NSString *resultPath;
     
-    NSData *data = [NSData dataWithContentsOfURL:url];
-    
-    CGFloat totalSize = (float)data.length / 1024 / 1024;
-    
     AVURLAsset *avAsset = [AVURLAsset URLAssetWithURL:url options:nil];
     
     NSArray *compatiblePresets = [AVAssetExportSession exportPresetsCompatibleWithAsset:avAsset];
