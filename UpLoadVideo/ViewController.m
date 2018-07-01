@@ -191,7 +191,7 @@
             [upLoadMeneger postImageWithURLString:@"上传图片的连接"  parameter:@{@"传图的参数":@""} image:weakSelf.videoImage.image success:^(UpLoadImage *net, id object) {
                 
                 if ([object[@"result"] integerValue] == 1) {
-                    // JFLog(@"缩略图上传成功");
+                    // NSLog(@"缩略图上传成功");
                     // 缩略图上传成功, 取出缩略图的路径
                     NSArray *tempArr = object[@"data"];
                     weakSelf.imagePath = tempArr[0][@"p"];
@@ -284,10 +284,10 @@
             //            [MBProgressHUD hideHUDForView:weakSelf.view animated:YES];
             
         } fialBlock:^(NetWorkManeger *net, NSError *error) {
-            //            JFLog(@"%@", error);
+            //            NSLog(@"%@", error);
         }];
     } else {
-        //        JFLog(@"发布失败");
+        //        NSLog(@"发布失败");
     }
 }
 

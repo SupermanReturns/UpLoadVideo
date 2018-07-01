@@ -45,7 +45,7 @@
         
         resultPath = [CompressionVideoPaht stringByAppendingPathComponent:[NSString stringWithFormat:@"outputJFVideo-%@.mov", [formater stringFromDate:[NSDate date]]]];
         
-        //        JFLog(@"resultPath = %@",resultPath);
+        //        NSLog(@"resultPath = %@",resultPath);
         
         exportSession.outputURL = [NSURL fileURLWithPath:resultPath];
         
@@ -61,19 +61,19 @@
                  NSData *data = [NSData dataWithContentsOfFile:resultPath];
                  
                  float memorySize = (float)data.length / 1024 / 1024;
-                 //                 JFLog(@"视频压缩后大小 %f", memorySize);
+                 //                 NSLog(@"视频压缩后大小 %f", memorySize);
                  
                  resultPathBlock (resultPath, memorySize);
                  
              } else {
                  
-                 //                 JFLog(@"压缩失败");
+                 //                 NSLog(@"压缩失败");
              }
              
          }];
         
     } else {
-        //        JFLog(@"不支持 %@ 格式的压缩", compressionType);
+        //        NSLog(@"不支持 %@ 格式的压缩", compressionType);
     }
 }
 

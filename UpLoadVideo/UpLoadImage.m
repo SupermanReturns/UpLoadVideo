@@ -42,9 +42,9 @@
             // 上传成功
             success (self, responseObject);
             if ([responseObject[@"result"] integerValue] == 1) {
-                //                JFLog(@"上传成功");
+                //                NSLog(@"上传成功");
             } else {
-                //                JFLog(@"失败%@", responseObject[@"msg"]);
+                //                NSLog(@"失败%@", responseObject[@"msg"]);
             }
         } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
             // 上传失败
